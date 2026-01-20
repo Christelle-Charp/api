@@ -4,7 +4,7 @@
 // - mon code secret contenu dans mon .env
 
 import crypto from "crypto";
-import { Request, Response, NextFunction } from "express";
+import type { Request, Response, NextFunction } from "express";
 
 export default function verifySignature(req: Request, res: Response, next: NextFunction) {
   //Signature envoyé par Git
@@ -23,7 +23,7 @@ export default function verifySignature(req: Request, res: Response, next: NextF
   //digest en crypto est le résumé du message, le résultat final du hash
   //on utilise l'objet hmac (l'objet décodeur) sur le contenu de la requete soit req.rawBody et on lui demande de donner un résulat hexadicimale
   // puis on place avant "sha256=" car c'est le header de la requete reçue pour pouvoir récréer le meme format qu'envoyer par github
-  const digest = "sha256=" + hmac.update(req.rawBody).digest("hex");
+  const digest = "sha256=" + hmac.update((req as any).rawBody).digest("hex");
   //digest est le code que je calcuke par rapprt à mon code secret
 
   //ensuite de compare l'entete reçu dans la requete à ce que j'ai calculé à partir de mon code secret, si c'est la meme chose 
