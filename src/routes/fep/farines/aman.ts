@@ -1,5 +1,5 @@
 import { Router } from "express";
-import data from "../../../data/fep/farines/FEP-AMAN.json" assert { type: "json" };
+import data from "../../../data/fep/farines/FEP-AMAN.json";
 
 const router = Router();
 

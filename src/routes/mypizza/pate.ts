@@ -1,5 +1,5 @@
 import { Router } from "express";
-import pate from "../../data/mypizza/pate.json" assert { type: "json" };
+import pate from "../../data/mypizza/pate.json";
 
 const router = Router();
 

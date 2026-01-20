@@ -1,0 +1,15 @@
+services:
+  api:
+    container_name: api-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
+    env_file:
+      - .env
+    restart: always
+    volumes:
+      - /usr/local/bin/deploy-portfolio.sh:/usr/local/bin/deploy-portfolio.sh
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /srv/portfolio:/srv/portfolio
