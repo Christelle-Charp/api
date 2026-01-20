@@ -1,0 +1,17 @@
+[
+  {
+    "id": "T1",
+    "nom": "petite",
+    "description": "pizza pour petites faims\\n(diamètre 22cm)"
+  },
+  {
+    "id": "T2",
+    "nom": "moyenne",
+    "description": "pizza standard\\n(diamètre 26cm)"
+  },
+  {
+    "id": "T3",
+    "nom": "grande",
+    "description": "pizza à partager\\n(diamètre 30cm)"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "P1",
+    "nom": "fine",
+    "description": "Pâte fine et croustillante"
+  },
+  {
+    "id": "P2",
+    "nom": "épaisse",
+    "description": "Pâte gourmande épaisse"
+  }
+]

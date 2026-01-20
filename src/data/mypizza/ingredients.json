@@ -1,0 +1,62 @@
+[
+  {
+    "id": "I1",
+    "nom": "tomates cerises",
+    "description": "tomates cerises origine France ",
+    "image": "$api/tomates.jpg"
+  },
+  {
+    "id": "I5",
+    "nom": "olives noires",
+    "description": "olives noires de Nyons",
+    "image": "$api/olives.jpg"
+  },
+  {
+    "id": "I6",
+    "nom": "mozzarella",
+    "description": "mozzarella au lait de bufflonne, origine Italie",
+    "image": "$api/mozza.jpg"
+  },
+  {
+    "id": "I8",
+    "nom": "jambon de Parme",
+    "description": "jambon de Parme AOC",
+    "image": "$api/parme.jpg"
+  },
+  {
+    "id": "I10",
+    "nom": "emmental",
+    "description": "fromage Emmental, origine France",
+    "image": "$api/emmental.jpg"
+  },
+  {
+    "id": "I11",
+    "nom": "poivrons",
+    "description": "poivrons frais",
+    "image": "$api/poivrons.jpg"
+  },
+  {
+    "id": "I13",
+    "nom": "saumon fumé",
+    "description": "saumon fumé de Norvège",
+    "image": "$api/saumon.jpg"
+  },
+  {
+    "id": "I18",
+    "nom": "lardons",
+    "description": "lardons fumés, label Rouge",
+    "image": "$api/lardons.jpg"
+  },
+  {
+    "id": "I22",
+    "nom": "artichauts",
+    "description": "coeurs d'artichaut",
+    "image": "$api/artichaut.jpg"
+  },
+  {
+    "id": "I27",
+    "nom": "champignons",
+    "description": "champignons de Paris",
+    "image": "$api/champi.jpg"
+  }
+]

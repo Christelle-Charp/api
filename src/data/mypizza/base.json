@@ -1,0 +1,14 @@
+[
+  {
+    "id": "B1",
+    "nom": "tomate",
+    "description": "sauce aux tomates fraiches et herbes",
+    "image": "$api/base_tomate.jpg"
+  },
+  {
+    "id": "B3",
+    "nom": "pesto",
+    "description": "sauce délicate au pesto vert",
+    "image": "$api/base_pesto.jpg"
+  }
+]
